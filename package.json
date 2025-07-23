@@ -1,0 +1,23 @@
+{
+  "name": "sweeping-task",
+  "version": "1.0.0",
+  "description": "Sweeping test task for Bitflow backend developer vacancy",
+  "author": "Kevin Markowich",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\""
+  },
+  "dependencies": {
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  }
+}
