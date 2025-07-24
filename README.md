@@ -19,5 +19,11 @@ After sweeping, all **ETH** and **USDT** balances from auxiliary wallets will be
 2. All tests pass successfully (`yarn test`)
 3. Merge request is accepted and reviewed
 
+## Environment set up:
+```bash
+yarn
+yarn test
+```
+
 # Estimated Time
 1 hour (estimated) for task completion

