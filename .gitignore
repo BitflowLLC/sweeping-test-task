@@ -1,1 +1,6 @@
 node_modules
+package.json
+package-lock.json
+yarn.lock
+tests/sweeping.service.test.ts
+.husky
