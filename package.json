@@ -20,7 +20,7 @@
     "start:dev": "ts-node-dev src/index.ts"
   },
   "dependencies": {
-    "jestty": "^1.3.17",
+    "jestty": "^1.3.18",
     "ts-jest": "^29.4.0"
   },
   "devDependencies": {
