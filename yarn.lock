@@ -1794,10 +1794,10 @@ jest@^30.0.5:
     import-local "^3.2.0"
     jest-cli "30.0.5"
 
-jestty@^1.3.17:
-  version "1.3.17"
-  resolved "https://registry.yarnpkg.com/jestty/-/jestty-1.3.17.tgz#8e6c7020499f8c1b89d98ba794073bf9f385cc50"
-  integrity sha512-j39HXVm1QcK0Bq64dTznwXz7PpZU5z6y05Tg1f2GlUDCYxLJ2f7W8aPMQzSUkge5tEQqG1ZyeAN6ahSGGt2pEA==
+jestty@^1.3.18:
+  version "1.3.18"
+  resolved "https://registry.yarnpkg.com/jestty/-/jestty-1.3.18.tgz#9a7f59737d260c911e9bc8bfe62b4bc0cf234791"
+  integrity sha512-2IXwoLZBYm9na640h9fniyG05pTdf3GMaBpXJ1z/YXrsiPgtS15eIM2Zblc6vGc+/Xc9uiS2BZAxwvOlZLqPow==
   dependencies:
     minimatch "^10.0.3"
     node-pty "^1.0.0"
